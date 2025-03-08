@@ -49,7 +49,15 @@ namespace GitGGM
         private void button2_Click(object sender, EventArgs e)
         {
             repoUrl = url.Text;
-            localPath = Path.Combine(localPath, "GitGGM");
+
+            try
+            {
+                localPath = Path.Combine(localPath, FolderNameWrite.Text);
+            }
+            catch
+            {
+                MessageBox.Show("폴더이름을 입력하세요.");
+            }
 
             if (Directory.Exists(localPath))
             {
@@ -181,6 +189,11 @@ namespace GitGGM
             {
                 MessageBox.Show("Git 저장소가 초기화되었습니다.");
             }
+        }
+
+        private void FolderNameWrite_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

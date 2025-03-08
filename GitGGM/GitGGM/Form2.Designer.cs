@@ -35,6 +35,7 @@
             this.Pushbtn = new System.Windows.Forms.Button();
             this.Commitbtn = new System.Windows.Forms.Button();
             this.txtCommitMessage = new System.Windows.Forms.TextBox();
+            this.FolderNameWrite = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -95,16 +96,25 @@
             // 
             // txtCommitMessage
             // 
-            this.txtCommitMessage.Location = new System.Drawing.Point(163, 158);
+            this.txtCommitMessage.Location = new System.Drawing.Point(163, 185);
             this.txtCommitMessage.Name = "txtCommitMessage";
             this.txtCommitMessage.Size = new System.Drawing.Size(446, 21);
             this.txtCommitMessage.TabIndex = 5;
+            // 
+            // FolderNameWrite
+            // 
+            this.FolderNameWrite.Location = new System.Drawing.Point(163, 158);
+            this.FolderNameWrite.Name = "FolderNameWrite";
+            this.FolderNameWrite.Size = new System.Drawing.Size(446, 21);
+            this.FolderNameWrite.TabIndex = 6;
+            this.FolderNameWrite.TextChanged += new System.EventHandler(this.FolderNameWrite_TextChanged);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.FolderNameWrite);
             this.Controls.Add(this.txtCommitMessage);
             this.Controls.Add(this.Commitbtn);
             this.Controls.Add(this.Pushbtn);
@@ -129,5 +139,6 @@
         private System.Windows.Forms.Button Pushbtn;
         private System.Windows.Forms.Button Commitbtn;
         private System.Windows.Forms.TextBox txtCommitMessage;
+        private System.Windows.Forms.TextBox FolderNameWrite;
     }
 }
