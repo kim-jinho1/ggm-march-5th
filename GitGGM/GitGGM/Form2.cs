@@ -1,22 +1,19 @@
 ﻿using LibGit2Sharp;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.Windows.Forms;
 
 namespace GitGGM
 {
-    public partial class Form2 : Form
+    public partial class Clone : Form
     {
         string repoUrl = null;
         string localPath = null;
-        Repository repo = new Repository();
         private string _directory = null;
 
 
-        public Form2()
+        public Clone()
         {
             InitializeComponent();
         }
@@ -26,12 +23,12 @@ namespace GitGGM
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)  
+        private void Folderpath_TextChanged(object sender, EventArgs e)
         {
             Text = localPath;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Folderpath_Click(object sender, EventArgs e)
         {
             using (FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog())
             {
@@ -41,15 +38,13 @@ namespace GitGGM
                 if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
                 {
                     localPath = folderBrowserDialog.SelectedPath;
-                    textBox1.Text = localPath;
+                    Folderpath.Text = localPath;
                 }
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Clonebntn_Click(object sender, EventArgs e)
         {
-            repoUrl = url.Text;
-
             try
             {
                 localPath = Path.Combine(localPath, FolderNameWrite.Text);
@@ -83,28 +78,22 @@ namespace GitGGM
             }
         }
 
-        private void url_TextChanged(object sender, EventArgs e)
+        private void URL_TextChanged(object sender, EventArgs e)
         {
-            
+            repoUrl = URL.Text;
         }
 
         private void Pushbtn_Click(object sender, EventArgs e)
         {
-            // 푸시 실행
-            string pushOutput = RunGitCommand(_directory, "push origin main");
-            if (string.IsNullOrEmpty(pushOutput))
-            {
-                MessageBox.Show("푸시 실패! 서버 확인이 필요합니다.");
-            }
-            else
-            {
-                MessageBox.Show("푸시 완료!");
-            }
-
-            txtCommitMessage.Clear();
+            PushChanges();
         }
 
         private void Commitbtn_Click(object sender, EventArgs e)
+        {
+            CommitChanges();
+        }
+
+        private void CommitChanges()
         {
             string commitMessage = txtCommitMessage.Text.Trim();
             if (string.IsNullOrWhiteSpace(commitMessage))
@@ -137,8 +126,22 @@ namespace GitGGM
             }
 
             MessageBox.Show("커밋 완료!");
+        }
 
-           
+        private void PushChanges()
+        {
+            // 푸시 실행
+            string pushOutput = RunGitCommand(_directory, "push origin main");
+            if (string.IsNullOrEmpty(pushOutput))
+            {
+                MessageBox.Show("푸시 실패! 서버 확인이 필요합니다.");
+            }
+            else
+            {
+                MessageBox.Show("푸시 완료!");
+            }
+
+            txtCommitMessage.Clear();
         }
 
         // Git 명령어 실행 함수

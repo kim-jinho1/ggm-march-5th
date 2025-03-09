@@ -27,7 +27,7 @@ namespace GitGGM
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+            Clone form2 = new Clone();
             form2.ShowDialog();
         }
     }

@@ -63,6 +63,6 @@ D:\C#\GitGGM\GitGGM\GitGGM\GitGGM\obj\Debug\GitGGM.Form2.resources
 D:\C#\GitGGM\GitGGM\GitGGM\GitGGM\obj\Debug\GitGGM.Properties.Resources.resources
 D:\C#\GitGGM\GitGGM\GitGGM\GitGGM\obj\Debug\GitGGM.csproj.GenerateResource.cache
 D:\C#\GitGGM\GitGGM\GitGGM\GitGGM\obj\Debug\GitGGM.csproj.CoreCompileInputs.cache
-D:\C#\GitGGM\GitGGM\GitGGM\GitGGM\obj\Debug\GitGGM.csproj.CopyComplete
 D:\C#\GitGGM\GitGGM\GitGGM\GitGGM\obj\Debug\GitGGM.exe
 D:\C#\GitGGM\GitGGM\GitGGM\GitGGM\obj\Debug\GitGGM.pdb
+D:\C#\GitGGM\GitGGM\GitGGM\GitGGM\obj\Debug\GitGGM.csproj.Up2Date

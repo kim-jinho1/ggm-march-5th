@@ -1,6 +1,6 @@
 ﻿namespace GitGGM
 {
-    partial class Form2
+    partial class Clone
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.url = new System.Windows.Forms.TextBox();
+            this.Folderpath = new System.Windows.Forms.TextBox();
+            this.URL = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.Pushbtn = new System.Windows.Forms.Button();
@@ -38,21 +38,21 @@
             this.FolderNameWrite = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // Folderpath
             // 
-            this.textBox1.Location = new System.Drawing.Point(163, 131);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(446, 21);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.Folderpath.Location = new System.Drawing.Point(163, 131);
+            this.Folderpath.Name = "Folderpath";
+            this.Folderpath.Size = new System.Drawing.Size(446, 21);
+            this.Folderpath.TabIndex = 0;
+            this.Folderpath.TextChanged += new System.EventHandler(this.Folderpath_TextChanged);
             // 
-            // url
+            // URL
             // 
-            this.url.Location = new System.Drawing.Point(163, 104);
-            this.url.Name = "url";
-            this.url.Size = new System.Drawing.Size(446, 21);
-            this.url.TabIndex = 0;
-            this.url.TextChanged += new System.EventHandler(this.url_TextChanged);
+            this.URL.Location = new System.Drawing.Point(163, 104);
+            this.URL.Name = "URL";
+            this.URL.Size = new System.Drawing.Size(446, 21);
+            this.URL.TabIndex = 0;
+            this.URL.TextChanged += new System.EventHandler(this.URL_TextChanged);
             // 
             // button1
             // 
@@ -62,7 +62,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "파일찾기";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Folderpath_Click);
             // 
             // button2
             // 
@@ -72,7 +72,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Clone";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.Clonebntn_Click);
             // 
             // Pushbtn
             // 
@@ -120,8 +120,8 @@
             this.Controls.Add(this.Pushbtn);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.url);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.URL);
+            this.Controls.Add(this.Folderpath);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
@@ -132,8 +132,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox url;
+        private System.Windows.Forms.TextBox Folderpath;
+        private System.Windows.Forms.TextBox URL;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button Pushbtn;
