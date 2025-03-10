@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\C#\\GitGGM\\GitGGM\\GitGGM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EE9A0E5-1162-4462-911B-104EABE08C54}|GitGGM\\GitGGM.csproj|d:\\c#\\gitggm\\gitggm\\gitggm\\gitggm\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EE9A0E5-1162-4462-911B-104EABE08C54}|GitGGM\\GitGGM.csproj|d:\\c#\\gitggm\\gitggm\\gitggm\\gitggm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EE9A0E5-1162-4462-911B-104EABE08C54}|GitGGM\\GitGGM.csproj|solutionrelative:gitggm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE9A0E5-1162-4462-911B-104EABE08C54}|GitGGM\\GitGGM.csproj|d:\\c#\\gitggm\\gitggm\\gitggm\\gitggm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EE9A0E5-1162-4462-911B-104EABE08C54}|GitGGM\\GitGGM.csproj|solutionrelative:gitggm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EE9A0E5-1162-4462-911B-104EABE08C54}|GitGGM\\GitGGM.csproj|D:\\C#\\GitGGM\\GitGGM\\GitGGM\\gitggm\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EE9A0E5-1162-4462-911B-104EABE08C54}|GitGGM\\GitGGM.csproj|solutionrelative:gitggm\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EE9A0E5-1162-4462-911B-104EABE08C54}|GitGGM\\GitGGM.csproj|D:\\C#\\GitGGM\\GitGGM\\GitGGM\\gitggm\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0EE9A0E5-1162-4462-911B-104EABE08C54}|GitGGM\\GitGGM.csproj|solutionrelative:gitggm\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE9A0E5-1162-4462-911B-104EABE08C54}|GitGGM\\GitGGM.csproj|D:\\C#\\GitGGM\\GitGGM\\GitGGM\\gitggm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0EE9A0E5-1162-4462-911B-104EABE08C54}|GitGGM\\GitGGM.csproj|solutionrelative:gitggm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE9A0E5-1162-4462-911B-104EABE08C54}|GitGGM\\GitGGM.csproj|D:\\C#\\GitGGM\\GitGGM\\GitGGM\\gitggm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE9A0E5-1162-4462-911B-104EABE08C54}|GitGGM\\GitGGM.csproj|solutionrelative:gitggm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form2.cs",
               "DocumentMoniker": "D:\\C#\\GitGGM\\GitGGM\\GitGGM\\GitGGM\\Form2.cs",
               "RelativeDocumentMoniker": "GitGGM\\Form2.cs",
               "ToolTip": "D:\\C#\\GitGGM\\GitGGM\\GitGGM\\GitGGM\\Form2.cs",
               "RelativeToolTip": "GitGGM\\Form2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAAAL8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T13:33:39.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form2.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "D:\\C#\\GitGGM\\GitGGM\\GitGGM\\GitGGM\\Form2.cs",
               "RelativeDocumentMoniker": "GitGGM\\Form2.cs",
@@ -55,27 +55,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\C#\\GitGGM\\GitGGM\\GitGGM\\GitGGM\\Form1.cs",
               "RelativeDocumentMoniker": "GitGGM\\Form1.cs",
               "ToolTip": "D:\\C#\\GitGGM\\GitGGM\\GitGGM\\GitGGM\\Form1.cs",
               "RelativeToolTip": "GitGGM\\Form1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwB0AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T09:42:14.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "D:\\C#\\GitGGM\\GitGGM\\GitGGM\\GitGGM\\Form1.cs",
               "RelativeDocumentMoniker": "GitGGM\\Form1.cs",
               "ToolTip": "D:\\C#\\GitGGM\\GitGGM\\GitGGM\\GitGGM\\Form1.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "GitGGM\\Form1.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T09:42:06.955Z",
+              "WhenOpened": "2025-03-10T13:38:07.087Z",
               "EditorCaption": " [\uB514\uC790\uC778]"
             }
           ]

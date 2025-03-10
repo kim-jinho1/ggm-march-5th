@@ -144,6 +144,7 @@ namespace GitGGM
             txtCommitMessage.Clear();
         }
 
+
         // Git 명령어 실행 함수
         private string RunGitCommand(string directory, string args)
         {
