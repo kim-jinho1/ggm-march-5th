@@ -83,3 +83,16 @@ D:\git\ggm-march-5th\GitGGM\obj\Debug\GitGGM.csproj.CoreCompileInputs.cache
 D:\git\ggm-march-5th\GitGGM\obj\Debug\GitGGM.csproj.Up2Date
 D:\git\ggm-march-5th\GitGGM\obj\Debug\GitGGM.exe
 D:\git\ggm-march-5th\GitGGM\obj\Debug\GitGGM.pdb
+D:\git\ggm-march-5th\GitGGM\bin\Debug\lib\win32\x86\git2-3f4182d.dll
+D:\git\ggm-march-5th\GitGGM\bin\Debug\lib\win32\x64\git2-3f4182d.dll
+D:\git\ggm-march-5th\GitGGM\bin\Debug\lib\win32\arm64\git2-3f4182d.dll
+D:\git\ggm-march-5th\GitGGM\bin\Debug\lib\linux-arm64\libgit2-3f4182d.so
+D:\git\ggm-march-5th\GitGGM\bin\Debug\lib\linux-arm\libgit2-3f4182d.so
+D:\git\ggm-march-5th\GitGGM\bin\Debug\lib\linux-musl-arm64\libgit2-3f4182d.so
+D:\git\ggm-march-5th\GitGGM\bin\Debug\lib\linux-musl-arm\libgit2-3f4182d.so
+D:\git\ggm-march-5th\GitGGM\bin\Debug\lib\linux-musl-x64\libgit2-3f4182d.so
+D:\git\ggm-march-5th\GitGGM\bin\Debug\lib\linux-ppc64le\libgit2-3f4182d.so
+D:\git\ggm-march-5th\GitGGM\bin\Debug\lib\linux-x64\libgit2-3f4182d.so
+D:\git\ggm-march-5th\GitGGM\bin\Debug\lib\osx-arm64\libgit2-3f4182d.dylib
+D:\git\ggm-march-5th\GitGGM\bin\Debug\lib\osx-x64\libgit2-3f4182d.dylib
+D:\git\ggm-march-5th\GitGGM\bin\Debug\LibGit2Sharp.dll.config
